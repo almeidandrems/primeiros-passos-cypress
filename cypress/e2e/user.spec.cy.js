@@ -20,7 +20,7 @@ describe('Orange HRM Tests', () => {
     dashboardPage.checkDashbordPage()
     menuPage.acessMyInfo()
     myInfoPage.fillPersonalDetails(chance.first(), chance.last())
-    myInfoPage.fillEmploymentDetails('Teste3', 'Teste4', 'Teste5', '2026-01-26' ,'Teste6')
+    myInfoPage.fillEmploymentDetails('Teste3', 'Teste4', 'Teste5', '2026-01-26', 'Teste6')
     myInfoPage.fillStatus()
     myInfoPage.saveForm()
 
